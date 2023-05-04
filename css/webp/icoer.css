@@ -1,0 +1,415 @@
+@import url(../css/font.css);
+
+:root {
+    --font1: 'font1', cursive;
+
+    --sgrey:  rgb(74, 74, 107);
+    --sblue: rgb(194, 250, 250);
+}
+
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+
+/* ------------Universal Css --------------------*/
+
+a {
+    text-decoration: none;
+    color: rgb(38, 34, 49);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    /* font-family: var(--font1); */
+    font-size: 4.5rem;
+    font-weight: 999;
+
+
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: san;
+    
+}
+
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+.text-gray{
+    color: gray;
+    margin-top: -0.3rem;
+    
+}
+
+p{
+    /* font-family: var(--Lexend); */
+    color: gray;
+}
+
+/* ------------Universal Css --------------------*/
+
+
+/* -----------------Navbar --------------------*/
+
+.navbar {
+    background-color: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 6vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    
+    
+}
+
+.navbar .nav-items {
+
+    display: flex;
+    margin: 0;
+
+}
+
+.navbar .nav-brand a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--font1);
+    font-size: 1.6rem;
+    font-weight: 1000;
+    margin-top: -0.6rem;
+
+}
+
+.text-gray img:hover{
+    /* box-shadow: 2px 2px 22px 2px black; */
+    border-radius: 0.18rem;
+    /* background-color: rgb(238, 238, 238); */
+}
+
+/* .home {
+    background-color: rgb(74, 74, 107);   this is for highlighting the home button
+    
+}
+
+.home a{
+    color: rgb(194, 250, 250);
+} */
+
+
+
+.navbar .nav-menu {
+    justify-content: space-between;
+}
+
+.navbar .toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+    padding-top: 1.2rem;
+}
+
+.navbar .toggle-collapse .toggle-icons i {
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: -0.4rem;
+}
+
+.collapse {
+    height: 25rem;
+}
+
+
+.nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--font1);
+    font-size: 1.1rem;
+    margin-top: -0.3rem;
+
+}
+
+.navbar .nav-items .nav-link:hover {
+    background-color: rgb(74, 74, 107);
+
+}
+
+.navbar .nav-items .nav-link:hover a {
+    color: rgb(194, 250, 250);
+}
+
+.navbar .social {
+    padding: 1.4rem 0;
+    
+}
+
+.navbar .social i {
+    padding: 0.2rem;
+    
+
+}
+
+.navbar .social i:hover {
+    color: var(--sgrey);
+}
+
+/* -----------------Navbar --------------------*/
+
+
+/*  --------------     Sticky Navbar      --------------*/
+
+body{
+    /* padding-top: 3rem; */
+    
+}
+
+/* .navbar-space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+} */
+
+#navbar {
+    overflow: hidden;
+    /* margin: 1.3rem;
+    border-radius: 2rem; */
+    box-shadow: 0px 10px 62px 0px rgba(0, 0, 0, 0.774);
+    
+    
+  }
+
+.content {
+    padding: 16px;
+    
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    /* margin-top: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border-radius: 1.3rem;
+    padding-bottom: .3rem; */
+  } 
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .nav-menu{
+    padding-right: 5rem;
+  }
+
+  
+
+
+/*  --------------     Sticky Navbar      --------------*/
+
+
+
+/* !--  ----------------        main Content     --------------> */
+
+.container{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 9vh;
+    
+}
+
+.cglogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.cglogo b{
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-left: 0.4rem;
+}
+
+.main-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-blog h1{
+    text-decoration:underline;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+.intro-info{
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.director{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+.director-view{
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.extra-info{
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- Footer --------------------- */
+
+footer.footer{
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2{
+    color: white;
+}
+
+footer.footer .newsletter .form-element{
+    background: rgb(41, 40, 40);
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    /* font-family: var(--Josefin); */
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: rgb(103, 103, 216);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+    color: white;
+    padding: 0 .4rem;
+}
+
+footer.footer .rights{
+    justify-content: center;
+    /* font-family: var(--Josefin); */
+}
+
+footer.footer .rights h4 a{
+    color: white;
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span{
+    color: gray;
+}
+
+footer.footer .move-up span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------x------- Footer ----------x---------- */
