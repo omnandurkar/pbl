@@ -1,0 +1,22 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * acumin-pro-extra-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9acb1e
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-02-01 15:01:12 UTC"}*/
+
+@import url("../p.typekit.net/p0462.css?s=1&amp;k=qqb4erk&amp;ht=tk&amp;f=26026&amp;a=41946298&amp;app=typekit&amp;e=css");
+
+@font-face {
+font-family:"acumin-pro-extra-condensed";
+src:url("af/8d1fa8/00000000000000003b9acb1e/27/l5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("woff2"),url("af/8d1fa8/00000000000000003b9acb1e/27/d5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("woff"),url("af/8d1fa8/00000000000000003b9acb1e/27/a5bba?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n6&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;
+}
+
+.tk-acumin-pro-extra-condensed { font-family: "acumin-pro-extra-condensed",sans-serif; }
